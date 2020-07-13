@@ -1,0 +1,149 @@
+body{
+    background: #81BD60;
+  
+    
+}
+
+.div{
+   
+margin: 3rem auto;
+width: 50%;
+  
+        h1{
+            color: #fff;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        form{
+        background: #6B9C51;
+        padding: 50px;
+            .form-control{
+                background: transparent;
+                border-radius: 0;
+                border: 1px solid #A3C192;
+                padding: 10px;
+                color: #fff;
+                transition: .5s;
+            }
+            .form-control::placeholder{
+                color: #A3C192;
+            }
+            .form-control:focus{
+                box-shadow: none;
+                border-bottom: 3px solid #A3C192;
+            }
+            .check{
+                padding: 15px 0;
+                color: #fff;
+            }
+            .btn{
+                background: #8CC16D;
+                color: #fff;
+                border-radius: 0;
+                padding: 10px 0;
+                &:hover{
+                    background:#81BD60 ;
+                }
+            }
+            p{
+                text-align: center;
+                color: #fff;
+                padding-top: 20px;
+                margin-bottom: 0;
+            }
+            
+            a{
+                text-decoration: none;
+                color: #fff;
+                transition: .5s;
+                &:hover{
+                    color: #76b852;
+                }
+            }
+            
+        }
+        p{
+            color: #fff;
+            text-align: center;
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            transition: .5s;
+            &:hover{
+                color: #000;
+            }
+        }
+}
+
+
+
+
+
+@media(max-width:1366px) {
+    h1 {
+      font-size: 2.6em;
+    }
+    .div{
+        width: 36%;
+    }
+}
+
+@media(max-width:1222px) {
+    h1 {
+      font-size: 2.4em;
+    }
+    .div{
+        width: 46%;
+    }
+}
+@media(max-width:900px) {
+    h1 {
+      font-size: 2em;
+    }
+    .div{
+        width: 56%;
+    }
+}
+
+@media(max-width:608px) {
+    h1 {
+      font-size: 2.5em;
+    }
+    .div{
+        width: 76%;
+    }
+}
+@media(max-width:560px) {
+    h1 {
+      font-size: 2.2em;
+    }
+    .div{
+        width: 86%;
+    }
+}
+@media(max-width:450px) {
+    h1 {
+      font-size: 1.9em;
+    }
+    .div{
+        width: 76%;
+    }
+}
+@media(max-width:436px) {
+    h1 {
+      font-size: 1.8em;
+    }
+    .div{
+        width: 76%;
+    }
+}
+@media(max-width:400px) {
+    h1 {
+      font-size: 1.2em;
+    }
+    .div{
+        width: 76%;
+    }
+}
+  
